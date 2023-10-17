@@ -22,6 +22,7 @@ body {
   font-size: var(--font-size-sm);
 }
 
+
 h1 {
   font-size: var(--font-size-xl);
   line-height: 55px;
@@ -51,6 +52,7 @@ h4 {
 
 a {
   color: #2979ff;
+  cursor: pointer;
 }
 
 ul,
@@ -204,4 +206,10 @@ ul li::before {
   line-height: 20px;
   color: var(--color-accent);
   margin-bottom: 11px;
+}
+.social-media {
+  color: #161d2a;
+}
+.social-media:hover {
+  color: #a8a8a8;
 }
