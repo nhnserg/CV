@@ -22,7 +22,6 @@ body {
   font-size: var(--font-size-sm);
 }
 
-
 h1 {
   font-size: var(--font-size-xl);
   line-height: 55px;
@@ -34,6 +33,9 @@ h2 {
   line-height: 17px;
   font-weight: 700;
   margin-bottom: 18px;
+  text-align: center;
+  color: #777676;
+  font-size: var(--font-size-lg);
 }
 
 h3 {
@@ -51,8 +53,11 @@ h4 {
 }
 
 a {
-  color: #2979ff;
+  color: rgb(50, 3, 238);
   cursor: pointer;
+}
+a:hover {
+  color: #2979ff;
 }
 
 ul,
@@ -211,5 +216,5 @@ ul li::before {
   color: #161d2a;
 }
 .social-media:hover {
-  color: #a8a8a8;
+  color: #2979ff;
 }
