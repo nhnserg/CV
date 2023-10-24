@@ -130,7 +130,12 @@ ul li::before {
   left: -20px;
   font-weight: bold;
 }
-
+.projects li:nth-child(4)::before {
+  content: "4.";
+  position: absolute;
+  left: -20px;
+  font-weight: bold;
+}
 .projects li div:nth-child(2) {
   flex: 1 0;
   border-bottom: 1px dashed #a8a8a8;
