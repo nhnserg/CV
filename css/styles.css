@@ -175,7 +175,7 @@ ul li::before {
 /* C-T */
 .contacts-container,
 .tech-skills-container {
-  margin-bottom: 48px;
+  margin-bottom: 25px;
 }
 
 /* Contacts */
@@ -222,4 +222,7 @@ ul li::before {
 }
 .social-media:hover {
   color: #2979ff;
+}
+.soft-skills {
+  margin-bottom: 20px;
 }
