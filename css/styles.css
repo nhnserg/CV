@@ -106,50 +106,45 @@ ul li::before {
   margin-bottom: 64px;
 }
 
-.projects li {
+.projects {
   display: flex;
   justify-content: space-between;
   position: relative;
 }
-
-.projects li:nth-child(1)::before {
+.projects li {
+  list-style-type: none;
+}
+.projects a:nth-child(1)::before {
   content: "1.";
   position: absolute;
-  left: -20px;
+  left: 4px;
   font-weight: bold;
 }
-.projects li:nth-child(2)::before {
+.projects a:nth-child(3)::before {
   content: "2.";
   position: absolute;
-  left: -20px;
+  left: 4px;
   font-weight: bold;
 }
-.projects li:nth-child(3)::before {
+.projects a:nth-child(5)::before {
   content: "3.";
   position: absolute;
-  left: -20px;
+  left: 4px;
   font-weight: bold;
 }
-.projects li:nth-child(4)::before {
+.projects a:nth-child(7)::before {
   content: "4.";
   position: absolute;
-  left: -20px;
+  left: 4px;
   font-weight: bold;
 }
-.projects li div:nth-child(2) {
-  flex: 1 0;
-  border-bottom: 1px dashed #a8a8a8;
-  height: 1em;
-  margin: 0.1em;
-}
 
-.projects li a {
+.projects a {
   text-decoration: underline;
 }
 
 .projects span {
   display: block;
-  min-width: 84px;
 }
 
 /* Sidebar */
@@ -188,7 +183,8 @@ ul li::before {
   margin-right: 5px;
 }
 
-.contacts-container .contacts-phone {
+.contacts-container .contacts-phone,
+.contacts-email {
   color: inherit;
 }
 
@@ -225,4 +221,7 @@ ul li::before {
 }
 .soft-skills {
   margin-bottom: 20px;
+}
+.contacts-svg {
+  margin: -3px;
 }
