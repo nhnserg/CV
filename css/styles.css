@@ -225,3 +225,6 @@ ul li::before {
 .contacts-svg {
   margin: -3px;
 }
+.repository {
+  color: inherit;
+}
